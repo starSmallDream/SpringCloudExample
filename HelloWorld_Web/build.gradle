@@ -1,0 +1,17 @@
+
+
+plugins {
+}
+
+
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter-web'){
+        exclude group:'org.apache.logging.log4j',module:'log4j-api'
+    }
+    implementation project(':HelloWorld_Feign_Interface')
+
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign'
+
+}
+

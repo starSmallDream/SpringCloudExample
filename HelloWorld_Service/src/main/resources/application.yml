@@ -1,0 +1,24 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    consul:
+      discovery:
+        service-name: ExampleServices
+      host: 127.0.0.1
+      port: 8500
+
+
+  application:
+    name: s
+  rabbitmq:
+    host: localhost
+    port: 5672
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+         - info
+         - health
+         - refresh

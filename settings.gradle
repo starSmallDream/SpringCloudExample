@@ -1,0 +1,8 @@
+rootProject.name = 'ExampleHelloWorld'
+include 'HelloWorld_Service'
+include 'HelloWorld_Web'
+include 'HelloWorld_Consul'
+include 'HelloWorld_Commons'
+include 'HelloWorld_Feign_Interface'
+include 'HelloWorld_Config_Server'
+

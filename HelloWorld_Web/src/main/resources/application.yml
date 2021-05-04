@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    consul:
+      discovery:
+        service-name: ExampleWeb
+
+
+
+      host: 127.0.0.1
+      port: 8500
+
+  application:
+    name: w
+
+
